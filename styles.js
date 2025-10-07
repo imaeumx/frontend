@@ -1,4 +1,4 @@
-import {StyleSheet} from 'react-native';
+import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
     scrollView: {
@@ -29,17 +29,17 @@ const styles = StyleSheet.create({
     },
 
     button: {
-        backgroundColor: '#6D94C5', 
+        backgroundColor: '#6D94C5',
         paddingVertical: 10,
         paddingHorizontal: 20,
         borderRadius: 5,
         alignItems: 'center',
-        justifyContent: 'center', 
+        justifyContent: 'center',
         marginBottom: 10,
     },
 
     buttonText: {
-        color: '#e8ecf0ff', 
+        color: '#e8ecf0ff',
         fontSize: 16,
         fontWeight: 'bold',
     },
@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
     },
 
     footer: {
-        color: '#333', 
+        color: '#333',
         fontSize: 12,
         fontWeight: '600',
         padding: 4,
@@ -75,6 +75,41 @@ const styles = StyleSheet.create({
         fontSize: 15,
         color: '#4771a3ff',
         fontWeight: '500',
+    },
+
+    userCard: {
+        padding: 15,
+        marginVertical: 8,
+        backgroundColor: '#fffaeeff',
+        borderRadius: 8,
+        borderWidth: 1,
+        borderColor: '#c3e4ffff',
+        shadowColor: '#c3e4ffff',
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.1,
+        shadowRadius: 3,
+        elevation: 3,
+    },
+
+    nameText: {
+        fontSize: 16,
+        color: '#41749eff',
+        marginBottom: 4,
+        fontWeight: 'bold',
+    },
+
+    emailText: {
+        fontSize: 14,
+        color: '#5586afff',
+        marginTop: 5,
+        borderTopWidth: 1,
+        borderTopColor: '#c3e4ffff',
+        paddingTop: 5,
+    },
+
+    genderText: {
+        fontSize: 14,
+        color: '#5586afff',
     },
 });
 
